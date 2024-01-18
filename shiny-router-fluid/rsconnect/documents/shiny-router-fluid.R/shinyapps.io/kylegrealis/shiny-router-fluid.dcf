@@ -1,0 +1,12 @@
+name: shiny-router-fluid
+title: shiny-router-fluid
+username: kylegrealis
+account: kylegrealis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10963595
+bundleId: 8159384
+url: https://kylegrealis.shinyapps.io/shiny-router-fluid/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
