@@ -78,6 +78,17 @@ ui <- tagList(
           position: relative;
           min-height: 100%;
         }
+        body {
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+        }
+        html, body {
+          height: calc(100% - 140px);
+          display: flex;
+          flex-direction: column;
+        }
         .my-nav-bar {
           display: flex;
           align-items: center;
@@ -130,14 +141,16 @@ ui <- tagList(
           margin-bottom: 60px; /* Margin bottom by footer height */
         }
         .my-page {
+          flex-grow: 1;
           margin: 0 auto; 
           padding: 10px; 
           width: 100%;
         }
         .footer {
-          position: absolute;
-          bottom: 0;
+          margin-top: auto;
+          flex-shrink: 0;
           padding: 10px;
+          height: 140px;
           width: 100%;
           background-color: #f47321;
           color: white;
